@@ -1,8 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Discgolf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 6px;
+    width: 95%;
+    height: 95%;
 }
 
 .pickButton{
@@ -17,6 +37,7 @@ body{
 }
 
 .textPlace{
-    font-size: 24px;
+    font-size: 30px;
     font-family: cursive;
 }
+
