@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pickButton{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 107%, #fffded, #f5f1e0 20%, #e3e0d4 40%, #c8c5bd 60%, #b2afa3 80%, #aaa88e);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textPlace{
+    font-size: 24px;
+    font-family: cursive;
+}
